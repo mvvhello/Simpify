@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		F5E36A422BBCE3AD00DC9724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A412BBCE3AD00DC9724 /* AppDelegate.swift */; };
 		F5E36A442BBCE3AD00DC9724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A432BBCE3AD00DC9724 /* SceneDelegate.swift */; };
-		F5E36A462BBCE3AD00DC9724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A452BBCE3AD00DC9724 /* ViewController.swift */; };
-		F5E36A492BBCE3AD00DC9724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E36A472BBCE3AD00DC9724 /* Main.storyboard */; };
 		F5E36A4B2BBCE3AE00DC9724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E36A4A2BBCE3AE00DC9724 /* Assets.xcassets */; };
 		F5E36A4E2BBCE3AE00DC9724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E36A4C2BBCE3AE00DC9724 /* LaunchScreen.storyboard */; };
+		F5E36A5D2BBCE4C900DC9724 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A592BBCE4C900DC9724 /* LoginViewController.swift */; };
+		F5E36A5E2BBCE4C900DC9724 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A5A2BBCE4C900DC9724 /* AnalyticsViewController.swift */; };
+		F5E36A5F2BBCE4C900DC9724 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A5B2BBCE4C900DC9724 /* BudgetViewController.swift */; };
+		F5E36A602BBCE4C900DC9724 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A5C2BBCE4C900DC9724 /* RegistrationViewController.swift */; };
+		F5E36A642BBCE4D500DC9724 /* NDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A612BBCE4D500DC9724 /* NDTextField.swift */; };
+		F5E36A652BBCE4D500DC9724 /* NDCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A622BBCE4D500DC9724 /* NDCategoryButton.swift */; };
+		F5E36A662BBCE4D500DC9724 /* NDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A632BBCE4D500DC9724 /* NDButton.swift */; };
+		F5E36A6A2BBCE4E100DC9724 /* BalanceBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A672BBCE4E100DC9724 /* BalanceBoard.swift */; };
+		F5E36A6B2BBCE4E100DC9724 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A682BBCE4E100DC9724 /* User.swift */; };
+		F5E36A6C2BBCE4E100DC9724 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A692BBCE4E100DC9724 /* Category.swift */; };
+		F5E36A6E2BBDE2CB00DC9724 /* NDCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A6D2BBDE2CB00DC9724 /* NDCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5E36A3E2BBCE3AD00DC9724 /* Simpify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E36A412BBCE3AD00DC9724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E36A432BBCE3AD00DC9724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5E36A452BBCE3AD00DC9724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5E36A482BBCE3AD00DC9724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5E36A4A2BBCE3AE00DC9724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E36A4D2BBCE3AE00DC9724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E36A4F2BBCE3AE00DC9724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E36A592BBCE4C900DC9724 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		F5E36A5A2BBCE4C900DC9724 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsViewController.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Controller/AnalyticsViewController.swift; sourceTree = "<group>"; };
+		F5E36A5B2BBCE4C900DC9724 /* BudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BudgetViewController.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Controller/BudgetViewController.swift; sourceTree = "<group>"; };
+		F5E36A5C2BBCE4C900DC9724 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewController.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Controller/RegistrationViewController.swift; sourceTree = "<group>"; };
+		F5E36A612BBCE4D500DC9724 /* NDTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NDTextField.swift; path = ../../../../AppCoda/Nomaday/Nomaday/View/NDTextField.swift; sourceTree = "<group>"; };
+		F5E36A622BBCE4D500DC9724 /* NDCategoryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NDCategoryButton.swift; path = ../../../../AppCoda/Nomaday/Nomaday/View/NDCategoryButton.swift; sourceTree = "<group>"; };
+		F5E36A632BBCE4D500DC9724 /* NDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NDButton.swift; path = ../../../../AppCoda/Nomaday/Nomaday/View/NDButton.swift; sourceTree = "<group>"; };
+		F5E36A672BBCE4E100DC9724 /* BalanceBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalanceBoard.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Model/BalanceBoard.swift; sourceTree = "<group>"; };
+		F5E36A682BBCE4E100DC9724 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Model/User.swift; sourceTree = "<group>"; };
+		F5E36A692BBCE4E100DC9724 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Model/Category.swift; sourceTree = "<group>"; };
+		F5E36A6D2BBDE2CB00DC9724 /* NDCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,56 @@
 		F5E36A402BBCE3AD00DC9724 /* Simpify */ = {
 			isa = PBXGroup;
 			children = (
-				F5E36A412BBCE3AD00DC9724 /* AppDelegate.swift */,
-				F5E36A432BBCE3AD00DC9724 /* SceneDelegate.swift */,
-				F5E36A452BBCE3AD00DC9724 /* ViewController.swift */,
-				F5E36A472BBCE3AD00DC9724 /* Main.storyboard */,
+				F5E36A582BBCE45A00DC9724 /* Delegates */,
+				F5E36A572BBCE45200DC9724 /* Controller */,
+				F5E36A562BBCE44800DC9724 /* View */,
+				F5E36A552BBCE44300DC9724 /* Model */,
 				F5E36A4A2BBCE3AE00DC9724 /* Assets.xcassets */,
 				F5E36A4C2BBCE3AE00DC9724 /* LaunchScreen.storyboard */,
 				F5E36A4F2BBCE3AE00DC9724 /* Info.plist */,
 			);
 			path = Simpify;
+			sourceTree = "<group>";
+		};
+		F5E36A552BBCE44300DC9724 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36A672BBCE4E100DC9724 /* BalanceBoard.swift */,
+				F5E36A692BBCE4E100DC9724 /* Category.swift */,
+				F5E36A682BBCE4E100DC9724 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5E36A562BBCE44800DC9724 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36A632BBCE4D500DC9724 /* NDButton.swift */,
+				F5E36A622BBCE4D500DC9724 /* NDCategoryButton.swift */,
+				F5E36A612BBCE4D500DC9724 /* NDTextField.swift */,
+				F5E36A6D2BBDE2CB00DC9724 /* NDCategoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5E36A572BBCE45200DC9724 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36A5A2BBCE4C900DC9724 /* AnalyticsViewController.swift */,
+				F5E36A5B2BBCE4C900DC9724 /* BudgetViewController.swift */,
+				F5E36A592BBCE4C900DC9724 /* LoginViewController.swift */,
+				F5E36A5C2BBCE4C900DC9724 /* RegistrationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5E36A582BBCE45A00DC9724 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36A412BBCE3AD00DC9724 /* AppDelegate.swift */,
+				F5E36A432BBCE3AD00DC9724 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +186,6 @@
 			files = (
 				F5E36A4E2BBCE3AE00DC9724 /* LaunchScreen.storyboard in Resources */,
 				F5E36A4B2BBCE3AE00DC9724 /* Assets.xcassets in Resources */,
-				F5E36A492BBCE3AD00DC9724 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +196,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5E36A462BBCE3AD00DC9724 /* ViewController.swift in Sources */,
+				F5E36A602BBCE4C900DC9724 /* RegistrationViewController.swift in Sources */,
+				F5E36A5D2BBCE4C900DC9724 /* LoginViewController.swift in Sources */,
+				F5E36A642BBCE4D500DC9724 /* NDTextField.swift in Sources */,
+				F5E36A6A2BBCE4E100DC9724 /* BalanceBoard.swift in Sources */,
 				F5E36A422BBCE3AD00DC9724 /* AppDelegate.swift in Sources */,
+				F5E36A6E2BBDE2CB00DC9724 /* NDCategoryView.swift in Sources */,
+				F5E36A5F2BBCE4C900DC9724 /* BudgetViewController.swift in Sources */,
+				F5E36A652BBCE4D500DC9724 /* NDCategoryButton.swift in Sources */,
 				F5E36A442BBCE3AD00DC9724 /* SceneDelegate.swift in Sources */,
+				F5E36A662BBCE4D500DC9724 /* NDButton.swift in Sources */,
+				F5E36A5E2BBCE4C900DC9724 /* AnalyticsViewController.swift in Sources */,
+				F5E36A6B2BBCE4E100DC9724 /* User.swift in Sources */,
+				F5E36A6C2BBCE4E100DC9724 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5E36A472BBCE3AD00DC9724 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5E36A482BBCE3AD00DC9724 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5E36A4C2BBCE3AE00DC9724 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +356,9 @@
 				INFOPLIST_FILE = Simpify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +366,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstRealApp.Simpify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,9 +387,9 @@
 				INFOPLIST_FILE = Simpify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +397,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstRealApp.Simpify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
