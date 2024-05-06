@@ -7,14 +7,29 @@
 
 import UIKit
 
-class NDCategoryCircle: UIView {
+final class NDCategoryCircle: UIView {
+    
+    let userData = Category()
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    init() {
+        super.init(frame: .zero)
+        configure()
     }
-    */
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func configure() {
+        self.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.backgroundColor = userData.color.rawValue
+        self.layer.cornerRadius = self.layer.bounds.width / 2
+        self.clipsToBounds = true
+    }
+}
 
+#Preview {
+    let circle = NDCategoryCircle()
+    return circle
 }

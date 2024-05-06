@@ -23,9 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
     }
     
-    func createBudgetNavigationController() -> UINavigationController {
-        let budgetVC = BudgetViewController()
-        budgetVC.title = "Budget"
+    func createExpensesNavigationController() -> UINavigationController {
+        let budgetVC = ExpensesViewController()
+        budgetVC.title = "Expenses"
         budgetVC.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
         
         return UINavigationController(rootViewController: budgetVC)
@@ -34,7 +34,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createAnalyticsNavigationController() -> UINavigationController {
         let analyticsVC = AnalyticsViewController()
         analyticsVC.title = "Analytics"
-        analyticsVC.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 1)
+        analyticsVC.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 2)
         
         return UINavigationController(rootViewController: analyticsVC)
     }
@@ -45,7 +45,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         UITabBar.appearance().isTranslucent = false
         UITabBar.appearance().barStyle = .default
         UITabBar.appearance().barTintColor = .systemBackground
-        tabbar.viewControllers = [createBudgetNavigationController(), createAnalyticsNavigationController()]
+        tabbar.viewControllers = [createExpensesNavigationController(), createAnalyticsNavigationController()]
         
         return tabbar
     }
