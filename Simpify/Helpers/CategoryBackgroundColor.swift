@@ -49,6 +49,7 @@ enum CategoryBackgroundColor {
             return UIColor.systemGray
         case .systemMint:
             return UIColor.systemMint
+            
         }
     }
 }

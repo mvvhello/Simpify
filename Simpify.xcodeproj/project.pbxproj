@@ -13,13 +13,13 @@
 		F54F02702BCB336600A78152 /* NDLineBarStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54F026F2BCB336600A78152 /* NDLineBarStackView.swift */; };
 		F5B09A452BE03D5B006D89AD /* NDSmallCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B09A442BE03D5B006D89AD /* NDSmallCategoryButton.swift */; };
 		F5B09A472BE953A6006D89AD /* NDCategoryCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B09A462BE953A6006D89AD /* NDCategoryCircle.swift */; };
+		F5B09A4F2BEE9324006D89AD /* NDCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B09A4E2BEE9324006D89AD /* NDCategoryButton.swift */; };
+		F5B09A512BEE9380006D89AD /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B09A502BEE9380006D89AD /* ExpensesViewController.swift */; };
+		F5B09A532BEE93AF006D89AD /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B09A522BEE93AF006D89AD /* AnalyticsViewController.swift */; };
 		F5E36A422BBCE3AD00DC9724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A412BBCE3AD00DC9724 /* AppDelegate.swift */; };
 		F5E36A442BBCE3AD00DC9724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A432BBCE3AD00DC9724 /* SceneDelegate.swift */; };
 		F5E36A4B2BBCE3AE00DC9724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E36A4A2BBCE3AE00DC9724 /* Assets.xcassets */; };
 		F5E36A4E2BBCE3AE00DC9724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E36A4C2BBCE3AE00DC9724 /* LaunchScreen.storyboard */; };
-		F5E36A5E2BBCE4C900DC9724 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A5A2BBCE4C900DC9724 /* AnalyticsViewController.swift */; };
-		F5E36A5F2BBCE4C900DC9724 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A5B2BBCE4C900DC9724 /* ExpensesViewController.swift */; };
-		F5E36A652BBCE4D500DC9724 /* NDCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A622BBCE4D500DC9724 /* NDCategoryButton.swift */; };
 		F5E36A6A2BBCE4E100DC9724 /* BalanceBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A672BBCE4E100DC9724 /* BalanceBoard.swift */; };
 		F5E36A6B2BBCE4E100DC9724 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A682BBCE4E100DC9724 /* User.swift */; };
 		F5E36A6C2BBCE4E100DC9724 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E36A692BBCE4E100DC9724 /* Category.swift */; };
@@ -32,15 +32,15 @@
 		F54F026F2BCB336600A78152 /* NDLineBarStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDLineBarStackView.swift; sourceTree = "<group>"; };
 		F5B09A442BE03D5B006D89AD /* NDSmallCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSmallCategoryButton.swift; sourceTree = "<group>"; };
 		F5B09A462BE953A6006D89AD /* NDCategoryCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDCategoryCircle.swift; sourceTree = "<group>"; };
+		F5B09A4E2BEE9324006D89AD /* NDCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDCategoryButton.swift; sourceTree = "<group>"; };
+		F5B09A502BEE9380006D89AD /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		F5B09A522BEE93AF006D89AD /* AnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
 		F5E36A3E2BBCE3AD00DC9724 /* Simpify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E36A412BBCE3AD00DC9724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E36A432BBCE3AD00DC9724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F5E36A4A2BBCE3AE00DC9724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E36A4D2BBCE3AE00DC9724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E36A4F2BBCE3AE00DC9724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5E36A5A2BBCE4C900DC9724 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsViewController.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Controller/AnalyticsViewController.swift; sourceTree = "<group>"; };
-		F5E36A5B2BBCE4C900DC9724 /* ExpensesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpensesViewController.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Controller/ExpensesViewController.swift; sourceTree = "<group>"; };
-		F5E36A622BBCE4D500DC9724 /* NDCategoryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NDCategoryButton.swift; path = ../../../../AppCoda/Nomaday/Nomaday/View/NDCategoryButton.swift; sourceTree = "<group>"; };
 		F5E36A672BBCE4E100DC9724 /* BalanceBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalanceBoard.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Model/BalanceBoard.swift; sourceTree = "<group>"; };
 		F5E36A682BBCE4E100DC9724 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Model/User.swift; sourceTree = "<group>"; };
 		F5E36A692BBCE4E100DC9724 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../../../../AppCoda/Nomaday/Nomaday/Model/Category.swift; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 		F5E36A562BBCE44800DC9724 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F5E36A622BBCE4D500DC9724 /* NDCategoryButton.swift */,
+				F5B09A4E2BEE9324006D89AD /* NDCategoryButton.swift */,
+				F5B09A442BE03D5B006D89AD /* NDSmallCategoryButton.swift */,
 				F54F026B2BC5B5D000A78152 /* NDHeaderView.swift */,
 				F54F026F2BCB336600A78152 /* NDLineBarStackView.swift */,
-				F5B09A442BE03D5B006D89AD /* NDSmallCategoryButton.swift */,
 				F5B09A462BE953A6006D89AD /* NDCategoryCircle.swift */,
 			);
 			path = View;
@@ -122,8 +122,8 @@
 		F5E36A572BBCE45200DC9724 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F5E36A5B2BBCE4C900DC9724 /* ExpensesViewController.swift */,
-				F5E36A5A2BBCE4C900DC9724 /* AnalyticsViewController.swift */,
+				F5B09A502BEE9380006D89AD /* ExpensesViewController.swift */,
+				F5B09A522BEE93AF006D89AD /* AnalyticsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,17 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B09A512BEE9380006D89AD /* ExpensesViewController.swift in Sources */,
 				F54F02682BC3372A00A78152 /* CategoryBackgroundColor.swift in Sources */,
+				F5B09A532BEE93AF006D89AD /* AnalyticsViewController.swift in Sources */,
 				F54F026C2BC5B5D000A78152 /* NDHeaderView.swift in Sources */,
 				F5E36A6A2BBCE4E100DC9724 /* BalanceBoard.swift in Sources */,
 				F5E36A422BBCE3AD00DC9724 /* AppDelegate.swift in Sources */,
-				F5E36A5F2BBCE4C900DC9724 /* ExpensesViewController.swift in Sources */,
 				F54F026E2BC9ACB700A78152 /* BackendClient.swift in Sources */,
-				F5E36A652BBCE4D500DC9724 /* NDCategoryButton.swift in Sources */,
 				F5B09A472BE953A6006D89AD /* NDCategoryCircle.swift in Sources */,
 				F5B09A452BE03D5B006D89AD /* NDSmallCategoryButton.swift in Sources */,
 				F5E36A442BBCE3AD00DC9724 /* SceneDelegate.swift in Sources */,
-				F5E36A5E2BBCE4C900DC9724 /* AnalyticsViewController.swift in Sources */,
+				F5B09A4F2BEE9324006D89AD /* NDCategoryButton.swift in Sources */,
 				F5E36A6B2BBCE4E100DC9724 /* User.swift in Sources */,
 				F5E36A6C2BBCE4E100DC9724 /* Category.swift in Sources */,
 				F54F02702BCB336600A78152 /* NDLineBarStackView.swift in Sources */,
